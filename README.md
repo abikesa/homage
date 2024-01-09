@@ -9,7 +9,7 @@
         - Romanticize african culture
           - Think of Anti-LGBT legislation
    
-   - Individuals are various
+   - Various types of individuals
      - Lovers
      - Heroes
     
@@ -29,15 +29,15 @@
 
       1. **Overshadowing Prior Contributions**: By focusing intensely on figures like Einstein, there's a risk of neglecting the vital contributions of predecessors and contemporaries who laid the groundwork for their discoveries. In Einstein's case, the foundations of relativity and the mathematics he employed (like the Lorentz transformations and the work of Minkowski) often go unrecognized in popular discourse.
 
-2. **Undervaluing Collaboration and Incremental Progress**: The narrative of the lone genius overlooks the inherently collaborative and incremental nature of scientific progress. Innovations are often the result of a cumulative process involving many contributors. Einstein himself built on the work of others and collaborated with colleagues in developing his theories.
+      2. **Undervaluing Collaboration and Incremental Progress**: The narrative of the lone genius overlooks the inherently collaborative and incremental nature of scientific progress. Innovations are often the result of a cumulative process involving many contributors. Einstein himself built on the work of others and collaborated with colleagues in developing his theories.
 
-3. **Misrepresentation of the Scientific Process**: The glorification of individual geniuses can also lead to a misunderstanding of how scientific progress actually happens. It's rarely about sudden, isolated leaps of insight but more often about gradual, collective advancements. The "ether" problem you mentioned is a good example, where the abandonment of the ether concept was part of a larger scientific evolution, not just Einstein's singular decision.
+      3. **Misrepresentation of the Scientific Process**: The glorification of individual geniuses can also lead to a misunderstanding of how scientific progress actually happens. It's rarely about sudden, isolated leaps of insight but more often about gradual, collective advancements. The "ether" problem you mentioned is a good example, where the abandonment of the ether concept was part of a larger scientific evolution, not just Einstein's singular decision.
 
-4. **Need for Historical Continuity**: Recognizing historical continuity is crucial in science and other fields. Understanding the evolution of ideas over time provides a more accurate and comprehensive view of how knowledge develops. It also fosters a greater appreciation for the many contributors to a field, not just the most celebrated figures.
+      4. **Need for Historical Continuity**: Recognizing historical continuity is crucial in science and other fields. Understanding the evolution of ideas over time provides a more accurate and comprehensive view of how knowledge develops. It also fosters a greater appreciation for the many contributors to a field, not just the most celebrated figures.
 
-5. **Quantifying Attribution**: As you pointed out, quantifying attribution in scientific and creative fields is complex and often not feasible. The interplay of ideas, the influence of prior work, and the contributions of collaborators are all integral to the process of innovation. Simplifying this to single out one individual can be misleading and diminish the broader context.
+      5. **Quantifying Attribution**: As you pointed out, quantifying attribution in scientific and creative fields is complex and often not feasible. The interplay of ideas, the influence of prior work, and the contributions of collaborators are all integral to the process of innovation. Simplifying this to single out one individual can be misleading and diminish the broader context.
 
-In summary, while it's important to recognize groundbreaking individuals like Einstein, it's equally crucial to understand and acknowledge the broader tapestry of contributions and context that make such breakthroughs possible. This approach offers a more balanced and inclusive view of creativity and discovery.
+      In summary, while it's important to recognize groundbreaking individuals like Einstein, it's equally crucial to understand and acknowledge the broader tapestry of contributions and context that make such breakthroughs possible. This approach offers a more balanced and inclusive view of creativity and discovery.
   
 3. History
    - `Reverence`
