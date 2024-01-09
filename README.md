@@ -1,4 +1,5 @@
-```
+
+
 1. Romanticism
 
    - Projection of affect onto individuals
@@ -70,6 +71,7 @@ This nuanced understanding of homage respects the fine line between inspiration 
 
 
    ----
+
    - *Genealogy of morality*
    - *Tunakoberaku gha nga mwenewo nali neinhira ku matama*
    - *Awononeire ekiwulu*   
@@ -77,4 +79,5 @@ This nuanced understanding of homage respects the fine line between inspiration 
    - *Endovu bakivuma obutako engezirawo*
       - *European claims to originality couldn't be challenged by African's since they were far more powerful*
 
-```
+
+
