@@ -397,23 +397,13 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#allegory">Allegory</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#allegory">1 Allegory</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#inherited-fetters-mu-text">Inherited fetters, <span class="math notranslate nohighlight">\(\mu\)</span> (text)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dancing-in-chains-sigma-context">Dancing in chains, <span class="math notranslate nohighlight">\(\sigma\)</span> (context)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#born-to-etiquette-pretext">Born to etiquette , <span class="math notranslate nohighlight">\(\%\)</span> (pretext)</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#essay">Essay</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#f-t-challenges">1. <span class="math notranslate nohighlight">\( f(t) \)</span> - Challenges</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#s-t-skills">2. <span class="math notranslate nohighlight">\( S(t) \)</span> - Skills</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#h-t-tools">3. <span class="math notranslate nohighlight">\( h(t) \)</span> - Tools</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#x-x-t-cdot-x-y-agency">4. <span class="math notranslate nohighlight">\( (X'X)^T \cdot X'Y \)</span> - Agency</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#beta-flow">5. <span class="math notranslate nohighlight">\(\beta \)</span> - Flow</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#combined-visualization-with-edited-beta-representation">Combined Visualization with Edited <span class="math notranslate nohighlight">\(\beta\)</span>  Representation</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#displacmeent">2 Displacmeent</a></li>
 </ul>
             </nav>
         </div>
@@ -438,7 +428,7 @@ document.write(`
 </pre></div>
 </div>
 <section id="allegory">
-<h2>Allegory<a class="headerlink" href="#allegory" title="Permalink to this heading">#</a></h2>
+<h2>1 Allegory<a class="headerlink" href="#allegory" title="Permalink to this heading">#</a></h2>
 <section id="inherited-fetters-mu-text">
 <h3>Inherited fetters, <span class="math notranslate nohighlight">\(\mu\)</span> (text)<a class="headerlink" href="#inherited-fetters-mu-text" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
@@ -478,306 +468,11 @@ document.write(`
 </aside>
 </section>
 </section>
-<section id="essay">
-<h2>Essay<a class="headerlink" href="#essay" title="Permalink to this heading">#</a></h2>
-<p>To visualize your framework using graphs, statistical functions, and LaTeX, we can break down each element and represent it with appropriate mathematical and graphical tools. Here’s a structured approach:</p>
-<section id="f-t-challenges">
-<h3>1. <span class="math notranslate nohighlight">\( f(t) \)</span> - Challenges<a class="headerlink" href="#f-t-challenges" title="Permalink to this heading">#</a></h3>
-<p>This represents the random challenges life throws at us, akin to sampling from a probability distribution.</p>
-<p><strong>Graphical Representation:</strong></p>
-<ul class="simple">
-<li><p>We can use a probability density function (PDF) to represent <span class="math notranslate nohighlight">\( f(t) \)</span>. A common choice could be the normal distribution, but we can generalize it to any distribution.</p></li>
-</ul>
-<p><strong>LaTeX Representation:</strong>
-<span class="math notranslate nohighlight">\( f(t) = P(T \leq t) \)</span></p>
-<p><strong>Python Code for Visualization:</strong></p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
-
-<span class="c1"># Time variable</span>
-<span class="n">t</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
-<span class="c1"># Probability density function</span>
-<span class="n">pdf</span> <span class="o">=</span> <span class="n">norm</span><span class="o">.</span><span class="n">pdf</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
-
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">pdf</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;$f(t)$&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Challenges $f(t)$ as a Probability Density Function&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Probability Density&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../_images/de0843e12c0749ae25496986523ff78eb4d09f6a5023184f478c74a7d4896784.png" src="../_images/de0843e12c0749ae25496986523ff78eb4d09f6a5023184f478c74a7d4896784.png" />
-</div>
-</div>
-</section>
-<section id="s-t-skills">
-<h3>2. <span class="math notranslate nohighlight">\( S(t) \)</span> - Skills<a class="headerlink" href="#s-t-skills" title="Permalink to this heading">#</a></h3>
-<p>Skills and resilience passed down from forebears, represented as a cumulative distribution function (CDF) or a survival function.</p>
-<p><strong>Graphical Representation:</strong></p>
-<ul class="simple">
-<li><p>The survival function <span class="math notranslate nohighlight">\( S(t) \)</span> can be depicted using a CDF.</p></li>
-</ul>
-<p><strong>LaTeX Representation:</strong>
-<span class="math notranslate nohighlight">\( S(t) = 1 - F(t) \)</span></p>
-<p><strong>Python Code for Visualization:</strong></p>
-<div class="cell tag_hide-input docutils container">
-<details class="hide above-input">
-<summary aria-label="Toggle hidden content">
-<span class="collapsed">Show code cell source</span>
-<span class="expanded">Hide code cell source</span>
-</summary>
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Survival function</span>
-<span class="n">cdf</span> <span class="o">=</span> <span class="n">norm</span><span class="o">.</span><span class="n">cdf</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
-<span class="n">survival_function</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">cdf</span>
-
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">survival_function</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;$S(t)$&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;orange&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Skills $S(t)$ as a Survival Function&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Survival Probability&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</details>
-<div class="cell_output docutils container">
-<img alt="../_images/a06beefd4b6000d4a25ff8f319d67523ea886c725129303744887e5df846161c.png" src="../_images/a06beefd4b6000d4a25ff8f319d67523ea886c725129303744887e5df846161c.png" />
-</div>
-</div>
-</section>
-<section id="h-t-tools">
-<h3>3. <span class="math notranslate nohighlight">\( h(t) \)</span> - Tools<a class="headerlink" href="#h-t-tools" title="Permalink to this heading">#</a></h3>
-<p>Tools represent the tension and strength built from “restraint,” visualized as a function that grows over time, possibly an exponential or logistic function.</p>
-<p><strong>Graphical Representation:</strong></p>
-<ul class="simple">
-<li><p>An exponential growth function <span class="math notranslate nohighlight">\( h(t) \)</span>.</p></li>
-</ul>
-<p><strong>LaTeX Representation:</strong>
-<span class="math notranslate nohighlight">\( h(t) = e^{\lambda t} \)</span></p>
-<p><strong>Python Code for Visualization:</strong></p>
-<div class="cell tag_hide-input docutils container">
-<details class="hide above-input">
-<summary aria-label="Toggle hidden content">
-<span class="collapsed">Show code cell source</span>
-<span class="expanded">Hide code cell source</span>
-</summary>
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Exponential growth function</span>
-<span class="n">lambda_</span> <span class="o">=</span> <span class="mf">0.5</span>
-<span class="n">h_t</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">lambda_</span> <span class="o">*</span> <span class="n">t</span><span class="p">)</span>
-
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">h_t</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;$h(t)$&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Tools $h(t)$ as an Exponential Growth Function&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Growth&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</details>
-<div class="cell_output docutils container">
-<img alt="../_images/373e72bdba7f3cfc82680fe706c6bea1782e6462216553013f054c84e169ec32.png" src="../_images/373e72bdba7f3cfc82680fe706c6bea1782e6462216553013f054c84e169ec32.png" />
-</div>
-</div>
-</section>
-<section id="x-x-t-cdot-x-y-agency">
-<h3>4. <span class="math notranslate nohighlight">\( (X'X)^T \cdot X'Y \)</span> - Agency<a class="headerlink" href="#x-x-t-cdot-x-y-agency" title="Permalink to this heading">#</a></h3>
-<p>Agency represented by the product of matrices, showing the accumulation of skills and tools over time.</p>
-<p><strong>LaTeX Representation:</strong>
-<span class="math notranslate nohighlight">\( (X'X)^T \cdot X'Y \)</span></p>
-<p><strong>Python Code for Visualization:</strong></p>
-<div class="cell tag_hide-input docutils container">
-<details class="hide above-input">
-<summary aria-label="Toggle hidden content">
-<span class="collapsed">Show code cell source</span>
-<span class="expanded">Hide code cell source</span>
-</summary>
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="c1"># Example matrix X and Y</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]])</span>
-<span class="n">Y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">]])</span>
-
-<span class="c1"># Matrix product</span>
-<span class="n">agency</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">X</span><span class="p">)</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">Y</span><span class="p">))</span>
-
-<span class="c1"># Display the result</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Agency (X&#39;X)^T \cdot X&#39;Y =</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">agency</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</details>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Agency (X&#39;X)^T \cdot X&#39;Y =
- [[2002]
- [2536]]
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;&gt;:11: SyntaxWarning: invalid escape sequence &#39;\c&#39;
-&lt;&gt;:11: SyntaxWarning: invalid escape sequence &#39;\c&#39;
-/var/folders/z3/nwmg00j178vfczmb9nk9487h0000gn/T/ipykernel_2870/4156088341.py:11: SyntaxWarning: invalid escape sequence &#39;\c&#39;
-  print(&quot;Agency (X&#39;X)^T \cdot X&#39;Y =\n&quot;, agency)
-</pre></div>
-</div>
-</div>
-</div>
-<p>To address the representation of <span class="math notranslate nohighlight">\(\beta\)</span> (Flow) and reflect the length of the vector rather than redundancy, we will calculate and visualize the magnitude of the beta coefficients. This can be done by plotting the values of the beta coefficients and indicating their significance.</p>
-</section>
-<section id="beta-flow">
-<h3>5. <span class="math notranslate nohighlight">\(\beta \)</span> - Flow<a class="headerlink" href="#beta-flow" title="Permalink to this heading">#</a></h3>
-<p>Flow represented by beta coefficients in a regression model, showing the relationship between inputs and outputs.</p>
-<p><strong>LaTeX Representation:</strong>
-<span class="math notranslate nohighlight">\(\beta = (X'X)^{-1}X'Y \)</span></p>
-<p><strong>Python Code for Visualization:</strong></p>
-<div class="cell tag_hide-input docutils container">
-<details class="hide above-input">
-<summary aria-label="Toggle hidden content">
-<span class="collapsed">Show code cell source</span>
-<span class="expanded">Hide code cell source</span>
-</summary>
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span> 
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-
-<span class="c1"># Example matrix X and Y</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]])</span>
-<span class="n">Y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">]])</span>
-
-<span class="c1"># Calculate beta coefficients</span>
-<span class="n">beta</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">X</span><span class="p">)</span> <span class="o">@</span> <span class="n">X</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">Y</span>
-
-<span class="c1"># Compute the length (magnitude) of the beta vector</span>
-<span class="n">beta_magnitude</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
-
-<span class="c1"># Plot beta coefficients</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">beta</span><span class="p">)),</span> <span class="n">beta</span><span class="o">.</span><span class="n">flatten</span><span class="p">(),</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Beta Coefficients (Flow)&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Coefficient Index&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Coefficient Value&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-
-<span class="c1"># Display the magnitude of the beta vector</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Magnitude of beta vector: </span><span class="si">{</span><span class="n">beta_magnitude</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</details>
-<div class="cell_output docutils container">
-<img alt="../_images/20de0642ac7e8d10e29974e1c0c573068d4443c47f7f200aad6b318398090cfa.png" src="../_images/20de0642ac7e8d10e29974e1c0c573068d4443c47f7f200aad6b318398090cfa.png" />
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Magnitude of beta vector: 0.50
-</pre></div>
-</div>
-</div>
-</div>
-<section id="combined-visualization-with-edited-beta-representation">
-<h4>Combined Visualization with Edited <span class="math notranslate nohighlight">\(\beta\)</span>  Representation<a class="headerlink" href="#combined-visualization-with-edited-beta-representation" title="Permalink to this heading">#</a></h4>
-<p>Integrating this improved visualization into the combined framework:</p>
-<div class="cell tag_hide-input docutils container">
-<details class="hide above-input">
-<summary aria-label="Toggle hidden content">
-<span class="collapsed">Show code cell source</span>
-<span class="expanded">Hide code cell source</span>
-</summary>
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">axs</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">15</span><span class="p">))</span>
-
-<span class="c1"># Plot f(t)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">pdf</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;$f(t)$&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Challenges $f(t)$ as a PDF&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Probability Density&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="c1"># Plot S(t)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">survival_function</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;$S(t)$&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;orange&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Skills $S(t)$ as a Survival Function&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Survival Probability&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="c1"># Plot h(t)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">h_t</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;$h(t)$&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Tools $h(t)$ as an Exponential Growth Function&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Growth&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="c1"># Display agency calculation</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Agency:</span><span class="se">\n</span><span class="s2">$(X&#39;X)^T \cdot X&#39;Y$ =</span><span class="se">\n</span><span class="si">{</span><span class="n">agency</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Agency Calculation&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
-
-<span class="c1"># Plot beta coefficients</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">beta</span><span class="p">)),</span> <span class="n">beta</span><span class="o">.</span><span class="n">flatten</span><span class="p">(),</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Beta Coefficients (Flow)&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Coefficient Index&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Coefficient Value&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="c1"># Display the magnitude of the beta vector</span>
-<span class="n">beta_magnitude_text</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;Magnitude of beta vector: </span><span class="si">{</span><span class="n">beta_magnitude</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="n">beta_magnitude_text</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Flow Calculation (Magnitude)&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
-
-<span class="c1"># Display SVD results</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Undiminishing Utility (SVD):</span><span class="se">\n</span><span class="s2">$X = U </span><span class="se">\\</span><span class="s2">Sigma V&#39;$</span><span class="se">\n</span><span class="s2">U =</span><span class="se">\n</span><span class="si">{</span><span class="n">U</span><span class="si">}</span><span class="se">\n</span><span class="s2">Sigma =</span><span class="se">\n</span><span class="si">{</span><span class="n">sigma</span><span class="si">}</span><span class="se">\n</span><span class="s2">V&#39; =</span><span class="se">\n</span><span class="si">{</span><span class="n">Vt</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Undiminishing Utility (SVD)&#39;</span><span class="p">)</span>
-<span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
-
-<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</details>
-<div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;&gt;:28: SyntaxWarning: invalid escape sequence &#39;\c&#39;
-&lt;&gt;:28: SyntaxWarning: invalid escape sequence &#39;\c&#39;
-/var/folders/z3/nwmg00j178vfczmb9nk9487h0000gn/T/ipykernel_2870/3770563895.py:28: SyntaxWarning: invalid escape sequence &#39;\c&#39;
-  axs[1, 1].text(0.1, 0.5, f&quot;Agency:\n$(X&#39;X)^T \cdot X&#39;Y$ =\n{agency}&quot;, fontsize=12, va=&#39;center&#39;)
-</pre></div>
-</div>
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">7</span><span class="p">],</span> <span class="n">line</span> <span class="mi">47</span>
-<span class="g g-Whitespace">     </span><span class="mi">44</span> <span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">46</span> <span class="c1"># Display SVD results</span>
-<span class="ne">---&gt; </span><span class="mi">47</span> <span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Undiminishing Utility (SVD):</span><span class="se">\n</span><span class="s2">$X = U </span><span class="se">\\</span><span class="s2">Sigma V&#39;$</span><span class="se">\n</span><span class="s2">U =</span><span class="se">\n</span><span class="si">{</span><span class="n">U</span><span class="si">}</span><span class="se">\n</span><span class="s2">Sigma =</span><span class="se">\n</span><span class="si">{</span><span class="n">sigma</span><span class="si">}</span><span class="se">\n</span><span class="s2">V&#39; =</span><span class="se">\n</span><span class="si">{</span><span class="n">Vt</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">va</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">48</span> <span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Undiminishing Utility (SVD)&#39;</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">49</span> <span class="n">axs</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
-
-<span class="ne">NameError</span>: name &#39;U&#39; is not defined
-</pre></div>
-</div>
-<img alt="../_images/c537ba2f56600b8a22e35b6d6da83134d8c773720d5e318b61108b1c9f0857aa.png" src="../_images/c537ba2f56600b8a22e35b6d6da83134d8c773720d5e318b61108b1c9f0857aa.png" />
-</div>
-</div>
-</section>
-</section>
+<section id="displacmeent">
+<h2>2 Displacmeent<a class="headerlink" href="#displacmeent" title="Permalink to this heading">#</a></h2>
+<p>The concept of heritage is indeed anchored in the continuity of place, community, and time. Our ancestors, rooted in their stable environments, passed down traditions, values, and practices that were cultivated over generations. They lived in a world where the community was often defined by a specific location, shared history, and a predictable rhythm of life.</p>
+<p>However, the dynamics of displacement—whether through emigration, immigration, or diaspora—introduce complexity to this stability. These experiences disrupt the continuity of heritage, leading to the intermingling of cultures, adaptation to new environments, and the evolution of identities. Displacement forces individuals and communities to redefine their heritage in a new context, often blending old traditions with new influences. This process can be both enriching and challenging, as it requires a balance between preserving one’s roots and embracing new experiences.</p>
+<p>Music, with its ii-V7-i progression, beautifully encapsulates this idea. The progression is a journey: starting from a point of tension (ii), moving through a dominant resolution (V7), and finally arriving at a place of rest (i). This musical journey mirrors the experience of displacement and diaspora. The tension of leaving one’s homeland, the dominant forces of adaptation and integration, and the eventual resolution in finding a new sense of belonging and identity. In the context of disjointed times and the diaspora, our heritage becomes a living, breathing entity—constantly evolving, yet deeply connected to its origins. It’s a testament to the resilience and adaptability of human culture, demonstrating how we can create harmony and meaning even amidst the most profound changes.</p>
 </section>
 </section>
 
@@ -827,23 +522,13 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#allegory">Allegory</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#allegory">1 Allegory</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#inherited-fetters-mu-text">Inherited fetters, <span class="math notranslate nohighlight">\(\mu\)</span> (text)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dancing-in-chains-sigma-context">Dancing in chains, <span class="math notranslate nohighlight">\(\sigma\)</span> (context)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#born-to-etiquette-pretext">Born to etiquette , <span class="math notranslate nohighlight">\(\%\)</span> (pretext)</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#essay">Essay</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#f-t-challenges">1. <span class="math notranslate nohighlight">\( f(t) \)</span> - Challenges</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#s-t-skills">2. <span class="math notranslate nohighlight">\( S(t) \)</span> - Skills</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#h-t-tools">3. <span class="math notranslate nohighlight">\( h(t) \)</span> - Tools</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#x-x-t-cdot-x-y-agency">4. <span class="math notranslate nohighlight">\( (X'X)^T \cdot X'Y \)</span> - Agency</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#beta-flow">5. <span class="math notranslate nohighlight">\(\beta \)</span> - Flow</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#combined-visualization-with-edited-beta-representation">Combined Visualization with Edited <span class="math notranslate nohighlight">\(\beta\)</span>  Representation</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#displacmeent">2 Displacmeent</a></li>
 </ul>
   </nav></div>
 
